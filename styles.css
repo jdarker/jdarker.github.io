@@ -145,7 +145,7 @@ p.about__container-link {
 .project__image-one {
     position: relative;
     left: -250px;
-    background: url(../images/img-one.jpg) no-repeat 50% 50%;
+    background: url(img-one.JPG) no-repeat 50% 50%;
     background-size: cover;
 }
 .text_image-one {
@@ -165,7 +165,7 @@ p.about__container-link {
 .project__image-two {
     position: relative;
     left: -250px;
-    background: url(../images/img-two.png) no-repeat 50% 50%;
+    background: url(img-two.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -186,7 +186,7 @@ p.about__container-link {
 .project__image-three {
     position: relative;
     left: -250px;
-    background: url(../images/img-three.png) no-repeat 50% 50%;
+    background: url(img-three.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -207,7 +207,7 @@ p.about__container-link {
 .project__image-four {
     position: relative;
     left: -250px;
-    background: url(../images/img-four.jpg) no-repeat 50% 50%;
+    background: url(img-four.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
