@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(237, 238, 225);
+   
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.home {
+    overflow: hidden;
+}
+
+/* menu */
+nav {
+    background-color: rgb(237, 238, 225);
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    transition: top 0.5s;
+}
+
+.menu__logo,.menu__items-link {
+    padding: 10px;
+    
+}
+
+.menu__logo a {
+    
+    position: relative;
+    
+    background-size: cover;
+}
+
+.menu__items {
+    display: flex;
+}
+
+.menu__items-link a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.menu__items-link.active a {
+    text-decoration: underline;
+}
+
+
+
+.fa {
+    padding-top: 7px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+
+
+/* about page styles */
+
+#js-scroll {
+    height: 200%;
+}
+
+.about__container {
+    width: 70%;
+    margin: 100px auto;
+    padding: 50px 40px;
+    text-align: left;
+
+}
+
+.about__container p {
+  
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.about__container p span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about__container-contact-link a {
+    color: rgb(0, 0, 0);
+}
+
+p.about__container-link {
+    font-size: 26px;
+}
+
+.about__container-link a {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+}
+
+/* project section */
+
+.project__container {
+    width: 70%;
+    margin: 100px auto;
+    /* border: 1px solid #5c5c5c; */
+    color: rgb(0, 0, 0);
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.project__container-title h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+}
+
+.project__container-subtitle {
+    margin: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.project__container-images {
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    padding: relative ;
+}
+
+.project__image {
+    background: red;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+}
+
+.project__image-one {
+    position: relative;
+    left: -250px;
+    background: url(../images/img-one.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.text_image-one {
+    
+    font-size: 70px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.text_image-one a {
+    text-decoration: none;
+    color: rgb(237, 238, 225);
+}
+
+.project__image-two {
+    position: relative;
+    left: -250px;
+    background: url(../images/img-two.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.text_image-two {
+    
+    font-size: 70px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.text_image-two a {
+    text-decoration: none;
+    color: rgb(237, 238, 225);
+}
+
+.project__image-three {
+    position: relative;
+    left: -250px;
+    background: url(../images/img-three.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.text_image-three {
+    
+    font-size: 70px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.text_image-three a {
+    text-decoration: none;
+    color: rgb(237, 238, 225);
+}
+
+.project__image-four {
+    position: relative;
+    left: -250px;
+    background: url(../images/img-four.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.text_image-four {
+    
+    font-size: 70px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.text_image-four a {
+    text-decoration: none;
+    color: rgb(237, 238, 225);
+}
+
+
+
+/* natural rhythms */ 
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.naturalrhythms__container {
+    width: 70%;
+    margin: 100px auto;
+    padding: 50px 40px;
+    text-align: left;
+
+}
+
+.naturalrhythms__container p {
+  
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.naturalrhythms__container p span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.naturalrhythms__container-contact-link a {
+    color: rgb(0, 0, 0);
+}
+
+p.naturalrhythms__container-link {
+    font-size: 26px;
+}
+
+.naturalrhythms__container-link a {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+}
